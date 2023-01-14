@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="purple_200">#FFBB86FC</color>
+    <color name="purple_500">#FF6200EE</color>
+    <color name="purple_700">#FF3700B3</color>
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#FF018786</color>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="green_background">#EFF0EA</color>
+    <color name="green_soft">#A2B194</color>
+    <color name="green_saturated">#FF536942</color>
+    <color name="green_dark">#3A4A2D</color>
+    <color name="green_small_text">#FFE0E5DA</color>
+    <color name="beige">#E9DDB5</color>
+
+    <!--Oolong tea-->
+    <color name="ot_main">#C7C2BC</color>
+    <color name="ot_background">#383D43</color>
+    <color name="ot_small_text">#FFE8E7E4</color>
+
+    <!-- Green tea -->
+    <color name="gt_main">#87A273</color>
+    <color name="gt_background">#1E2F25</color>
+    <color name="gt_small_text">#FFCFDAC6</color>
+
+    <!-- Red tea -->
+    <color name="rt_main">#C0AFA3</color>
+    <color name="rt_background">#5A3B27</color>
+    <color name="rt_small_text">#FFE5DFDA</color>
+
+
+    <!-- Yellow tea -->
+    <color name="yt_main">#C4BE71</color>
+    <color name="yt_background">#876F33</color>
+    <color name="yt_small_text">#e6e5c6</color>
+
+    
+    <!--White tea-->
+    <color name="wt_main">#A1A49A</color>
+    <color name="wt_background">#71765C</color>
+    <color name="wt_small_text">#FFDADBD8</color>
+</resources>

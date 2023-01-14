@@ -1,0 +1,276 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/mate_yellow"
+    android:orientation="vertical"
+    tools:context=".fragments.YellowTeaFragment">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:adjustViewBounds="true"
+        android:scaleX="1.2"
+        android:scaleY="1.2"
+        android:layout_marginTop="-100dp"
+        app:srcCompat="@drawable/bg_yellow_tea" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginTop="-60dp">
+
+        <ImageView
+            android:layout_width="110dp"
+            android:layout_height="110dp"
+            android:layout_gravity="center_horizontal"
+            android:src="@drawable/yellow_volume"
+            android:elevation="40dp" />
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="25dp"
+            android:layout_marginRight="25dp"
+            android:layout_marginTop="-50dp"
+            android:backgroundTint="@color/yt_main"
+            app:cardCornerRadius="10dp"
+            app:cardElevation="10dp">
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:gravity="center_horizontal"
+                android:paddingTop="60dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/forum"
+                    android:text="Yellow Tea"
+                    android:textColor="@color/white"
+                    android:textSize="45dp"
+                    android:layout_marginTop="-5dp"/>
+                <TextView
+                    android:id="@+id/pt_info"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="-20dp"
+                    android:fontFamily="@font/mallana"
+                    android:text="Sichuan, China"
+                    android:textColor="@color/yt_small_text"
+                    android:textSize="25dp" />
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="40dp"
+                    android:layout_height="3dp"
+                    android:layout_marginTop="-5dp"
+                    android:backgroundTint="@color/beige"
+                    android:orientation="vertical" />
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="7dp"
+                    android:layout_marginBottom="15dp"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:id="@+id/tv_puerh_chineese"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:fontFamily="@font/forum"
+                        android:text="黃茶 - huáng chá"
+                        android:textColor="@color/yt_small_text"
+                        android:textSize="24dp"/>
+
+                </LinearLayout>
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginRight="10dp"
+            android:layout_marginLeft="10dp"
+            android:padding="14dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+
+                <!-- What is Yellow Tea? -->
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/ragasta"
+                    android:text="What is Yellow Tea?"
+                    android:textColor="@color/white"
+                    android:textSize="20dp"/>
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="30dp"
+                    android:layout_height="2.5dp"
+                    android:layout_marginTop="4dp"
+                    android:backgroundTint="@color/beige"
+                    android:orientation="vertical"
+                    app:cardCornerRadius="10dp"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:fontFamily="@font/forum"
+                    android:text="@string/what_is_yellow_tea_1"
+                    android:textColor="@color/white"
+                    android:textSize="15dp"
+                    />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:fontFamily="@font/forum"
+                    android:text="@string/what_is_yellow_tea_2"
+                    android:textColor="@color/white"
+                    android:textSize="15dp"
+                    />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:fontFamily="@font/forum"
+                    android:text="@string/what_is_yellow_tea_3"
+                    android:textColor="@color/white"
+                    android:textSize="15dp"
+                    />
+
+
+
+                <!-- History -->
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/ragasta"
+                    android:text="History"
+                    android:layout_marginTop="10dp"
+                    android:textColor="@color/white"
+                    android:textSize="20dp"/>
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="30dp"
+                    android:layout_height="2.5dp"
+                    android:layout_marginTop="4dp"
+                    android:backgroundTint="@color/beige"
+                    android:orientation="vertical"
+                    app:cardCornerRadius="10dp"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:fontFamily="@font/forum"
+                    android:text="@string/yt_history_1"
+                    android:textColor="@color/white"
+                    android:textSize="15dp"
+                    />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:fontFamily="@font/forum"
+                    android:text="@string/yt_history_2"
+                    android:textColor="@color/white"
+                    android:textSize="15dp"
+                    />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:fontFamily="@font/forum"
+                    android:text="@string/yt_history_3"
+                    android:textColor="@color/white"
+                    android:textSize="15dp"
+                    />
+
+
+
+                <!-- Yellow Tea today -->
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/ragasta"
+                    android:text="Yellow Tea today"
+                    android:textColor="@color/white"
+                    android:layout_marginTop="10dp"
+                    android:textSize="20dp"/>
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="30dp"
+                    android:layout_height="2.5dp"
+                    android:layout_marginTop="4dp"
+                    android:backgroundTint="@color/beige"
+                    android:orientation="vertical"
+                    app:cardCornerRadius="10dp"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:fontFamily="@font/forum"
+                    android:text="@string/yt_today_1"
+                    android:textColor="@color/white"
+                    android:textSize="15dp"
+                    />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:fontFamily="@font/forum"
+                    android:text="@string/yt_today_2"
+                    android:textColor="@color/white"
+                    android:textSize="15dp"
+                    />
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginBottom="10dp">
+
+                    <ImageView
+                        android:id="@+id/yt_plant"
+                        android:layout_width="100dp"
+                        android:layout_height="62dp"
+                        android:src="@drawable/ic_plant_black"
+                        android:layout_gravity="center_horizontal"
+                        android:backgroundTint="@color/green_soft"
+                        />
+                </LinearLayout>
+
+            </LinearLayout>
+        </ScrollView>
+    </LinearLayout>
+
+
+
+
+</LinearLayout>

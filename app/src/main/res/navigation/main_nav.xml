@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main_nav"
+    app:startDestination="@id/mainFragment">
+
+    <fragment
+        android:id="@+id/mainFragment"
+        android:name="com.alesyastea.teaguide.fragments.MainFragment"
+        android:label="fragment_main"
+        tools:layout="@layout/fragment_main" >
+        <action
+            android:id="@+id/action_mainFragment_to_puerhTeaFragment"
+            app:destination="@id/puerhTeaFragment" />
+        <action
+            android:id="@+id/action_mainFragment_to_oolongTeaFragment"
+            app:destination="@id/oolongTeaFragment" />
+        <action
+            android:id="@+id/action_mainFragment_to_greenTeaFragment"
+            app:destination="@id/greenTeaFragment" />
+        <action
+            android:id="@+id/action_mainFragment_to_redTeaFragment"
+            app:destination="@id/redTeaFragment" />
+        <action
+            android:id="@+id/action_mainFragment_to_yellowTeaFragment"
+            app:destination="@id/yellowTeaFragment" />
+        <action
+            android:id="@+id/action_mainFragment_to_whiteTeaFragment"
+            app:destination="@id/whiteTeaFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/puerhTeaFragment"
+        android:name="com.alesyastea.teaguide.fragments.PuerhTeaFragment"
+        android:label="fragment_puerh_tea"
+        tools:layout="@layout/fragment_puerh_tea" >
+        <action
+            android:id="@+id/action_puerhTeaFragment_to_mainFragment"
+            app:destination="@id/mainFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/oolongTeaFragment"
+        android:name="com.alesyastea.teaguide.fragments.OolongTeaFragment"
+        android:label="fragment_oolong_tea"
+        tools:layout="@layout/fragment_oolong_tea" >
+        <action
+            android:id="@+id/action_oolongTeaFragment_to_mainFragment"
+            app:destination="@id/mainFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/greenTeaFragment"
+        android:name="com.alesyastea.teaguide.fragments.GreenTeaFragment"
+        android:label="fragment_green_tea"
+        tools:layout="@layout/fragment_green_tea" >
+        <action
+            android:id="@+id/action_greenTeaFragment_to_mainFragment"
+            app:destination="@id/mainFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/redTeaFragment"
+        android:name="com.alesyastea.teaguide.fragments.RedTeaFragment"
+        android:label="fragment_red_tea"
+        tools:layout="@layout/fragment_red_tea" >
+        <action
+            android:id="@+id/action_redTeaFragment_to_mainFragment"
+            app:destination="@id/mainFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/yellowTeaFragment"
+        android:name="com.alesyastea.teaguide.fragments.YellowTeaFragment"
+        android:label="fragment_yellow_tea"
+        tools:layout="@layout/fragment_yellow_tea" >
+        <action
+            android:id="@+id/action_yellowTeaFragment_to_mainFragment"
+            app:destination="@id/mainFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/whiteTeaFragment"
+        android:name="com.alesyastea.teaguide.fragments.WhiteTeaFragment"
+        android:label="fragment_white_tea"
+        tools:layout="@layout/fragment_white_tea" >
+        <action
+            android:id="@+id/action_whiteTeaFragment_to_mainFragment"
+            app:destination="@id/mainFragment" />
+    </fragment>
+</navigation>
